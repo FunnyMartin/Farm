@@ -175,6 +175,7 @@ public class Farm {
                 while(true){
                     System.out.println("Price: " + price);
                     System.out.println("1 = buy, 2 = leave");
+                    System.out.println();
                     input = scan.nextInt();
                     if(input == 1){
                         if(money >= price){
